@@ -1,0 +1,28 @@
+.x-field-small-radio+.x-field-mask::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 18px;
+    left: auto;
+    right: 18px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+.x-field-small-radio+.x-field-mask::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 16px;
+    left: auto;
+    right: 16px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+}
